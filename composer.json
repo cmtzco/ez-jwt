@@ -1,0 +1,10 @@
+{
+    "name": "cmtz/ez-jwt",
+    "description": "ez-jwt allows you to create JWT tokens for Server2Server authentication on the Google APIs and can be modified to work with other OAuth Services",
+    "require": {
+        "php": ">=5.3.0",
+        "firebase/php-jwt": "^2.1",
+	    "rmccue/requests": ">=1.0",
+	    "google/apiclient": "1.0.*@beta"
+    }
+}
