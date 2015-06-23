@@ -8,7 +8,7 @@ Simple OAuth Tools
 
 ####Parameters
 ```
-$issuer = your@developer.gserviceaccount.com;
+$issuer = your@developer.gserviceaccount.com; //this would be the email issued via Google API console (Credentials)
 $audience = "https://www.googleapis.com/oauth2/v3/token"; //for google jwt this is what would default
 $scope = "https://www.googleapis.com/auth/content"; //for google jwt this is what would default
 $key = file_get_contents(yourkeyfile.priv);
